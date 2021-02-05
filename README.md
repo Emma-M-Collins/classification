@@ -1,2 +1,2 @@
-# Classification: Random Forest and Logistic Regression on Collinear Data
+# Classification: Random Forest and Logistic Regression on Colinear Data
 
