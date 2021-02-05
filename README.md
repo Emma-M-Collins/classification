@@ -13,5 +13,5 @@ Ran For | M | R
 
 Method | TPR | FPR | FNR | Precision | Accuracy
 --- | --- | --- | --- | --- | --- |
-Logistic Regression |  0.843 | 0.178 | 0.824 | 0.821
+Logistic Regression |  0.843 | 0.178 | 0.181 | 0.824 | 0.821
 Random Forest | 1 | 0 | 0 | 1 | 1 
