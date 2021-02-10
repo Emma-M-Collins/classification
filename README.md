@@ -10,10 +10,10 @@ Ran For | M | R
 **M** | 83 |  0
 **R** |  0 | 73
 
-<img src="https://github.com/Emma-M-Collins/classification/blob/main/LRROC.png" width="250" height="200">
 
-![](https://github.com/Emma-M-Collins/classification/blob/main/LRROC.png)
-![](https://github.com/Emma-M-Collins/classification/blob/main/RFROC.png)
+
+![](/LRROC.png)
+![](/RFROC.png)
 
 
 Method | TPR | FPR | FNR | Precision | Accuracy
