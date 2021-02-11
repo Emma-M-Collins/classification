@@ -1,11 +1,11 @@
 # Classification: Random Forest and Logistic Regression on Colinear Data
 
-* There are multiple ways to predict binary (no/yes or 0/1 data), Logistic regression and random forests are two very popular techniques.
+* There are multiple ways to predict binary (no/yes or 0/1 data), logistic regression and random forests are two very popular techniques.
 * Use the [Sonar dataset](https://archive.ics.uci.edu/ml/datasets/Connectionist+Bench+%28Sonar%2C+Mines+vs.+Rocks%29), from University of California, Irvine's [Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php). 
-* The Sonar dataset has 60 different measurements and angles of sonar (the predictors) used to predict whether a buried object is a rock (R) or a mine (M).  There are 208 total observations, with 111 Mine responses and 97 Rock responses.
+* The Sonar dataset has 60 different measurements and angles of sonar (the predictors) used to predict whether a buried object is a rock or a mine.  There are 208 total observations, with 111 Mine responses and 97 Rock responses.
 
 ## Method Comparisons
-We will use the following statistics to compare Logistic Regression to Random Forest
+We will use the following statistics to compare logistic regression to random forest
 * **Accuracy**: the proportion of correct prediction to all predictions
 * **Precision**: the proportion of mines correctly identified to all mines identified (correctly and incorrectly)
 * **True Positive Rate (TPR)**: the proportion of mines correctly identified to all known mines
@@ -17,7 +17,7 @@ We will use the following statistics to compare Logistic Regression to Random Fo
 Data split into 75% training data and 25% test data.
 
 **Logistic Regression**
-* Highly colinear data, removed 17 predictors (out of 60 totla) before building the model
+* Highly colinear data, removed 17 predictors (out of 60 total) before building the model
 * Final model only has 12 predictors 
 
 **Random Forest**
