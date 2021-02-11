@@ -4,7 +4,7 @@
 * Use the [Sonar dataset](https://archive.ics.uci.edu/ml/datasets/Connectionist+Bench+%28Sonar%2C+Mines+vs.+Rocks%29), from University of California, Irvine's [Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php). 
 * The Sonar dataset has 60 different measurements and angles of sonar (the predictors) used to predict whether a buried object is a rock (R) or a mine (M).  There are 208 total observations, with 111 Mine responses and 97 Rock responses.
 
-### Method Comparisons
+## Method Comparisons
 We will use the following statistics to compare Logistic Regression to Random Forest
 * **Accuracy**: the proportion of correct prediction to all predictions
 * **Precision**: the proportion of mines correctly identified to all mines identified (correctly and incorrectly)
@@ -13,7 +13,7 @@ We will use the following statistics to compare Logistic Regression to Random Fo
 * **False Negative Rate (FNR)**: the proportion of mines incorrectly identified as a rock to all known mines
 * **ROC curve/AUC**: a diagnostic plot, shows how TPR and FPR vary as the decision threshold changes.
 
-### Results
+## Results
 Data split into 75% training data and 25% test data.
 
 **Logistic Regression**
@@ -29,6 +29,7 @@ Method | TPR | FPR | FNR | Precision | Accuracy
 --- | --- | --- | --- | --- | --- |
 Logistic Regression |  0.843 | 0.178 | 0.181 | 0.824 | 0.821
 Random Forest | 1 | 0 | 0 | 1 | 1 
+
 
 
 Test Data
