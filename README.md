@@ -54,6 +54,8 @@ Again, the curves shows random forest outperforming logistic regression.  (AUC =
 * Logistic regression had a massive problem with colinearity, unstable results
 * ROC curves also indicates random forest predicts much better, the high AUC indicates the method has high seperability
 
+<br>
+
 **Keep in mind these conclusions only apply to the Sonar dataset!**
 * If a data sample meets the assumptions for logistic regression, it will often outperform
 * But, the Sonar dataset is not one of those datasets.
