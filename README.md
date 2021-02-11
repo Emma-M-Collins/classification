@@ -30,7 +30,7 @@ Method | Accuracy | Precision | TPR | FPR | FNR
 Logistic Regression |  0.843 | 0.178 | 0.181 | 0.824 | 0.821
 Random Forest | 1 | 1 | 1 | 0 | 0 
 
--
+
 
 Test Data
 Method | Accuracy | Precision | TPR | FPR | FNR
@@ -39,6 +39,7 @@ Logistic Regression |  0.615 | 0.625 | 0.714 | 0.333 | 0.429
 Random Forest | 0.808 | 0.750 | 0.964 | 0.042 | 0. 321
 
 From the tables, random forest out-performs logistic regression in every statistic in the training and test data.
+
 
 ROC Curves | & AUC
 --- | ---
