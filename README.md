@@ -40,6 +40,7 @@ Random Forest | 0.808 | 0.750 | 0.964 | 0.042 | 0. 321
 
 From the tables, random forest out-performs logistic regression in every statistic in the training and test data.
 
+ROC Curves & AUC | 
 --- | ---
 ![](/LRROC.png) | ![](/RFROC.png)
 
