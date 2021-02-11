@@ -36,7 +36,7 @@ Test Data
 Method | Accuracy | Precision | TPR | FPR | FNR
 --- | --- | --- | --- | --- | --- |
 Logistic Regression |  0.615 | 0.625 | 0.714 | 0.333 | 0.429
-Random Forest | 0.808 | 0.750 | 0.964 | 0.042 | 0. 321
+Random Forest | 0.808 | 0.750 | 0.964 | 0.042 | 0.321
 
 From the tables, random forest out-performs logistic regression in every statistic in the training and test data.
 
@@ -46,3 +46,16 @@ ROC Curves | & AUC
 --- | ---
 ![](/LRROC.png) | ![](/RFROC.png)
 
+Again, the curves shows random forest outperforming logistic regression.  (AUC = 1 is perfect prediction)
+
+## Conclusions
+* Random Forest outperforms logistic regression in every facet
+* Even after overfitting to the training data, the random forest has better accuracy and prediction 
+* Logistic regression had a massive problem with colinearity, unstable results
+* ROC curves also indicates random forest predicts much better, the high AUC indicates the method has high seperability
+
+**Keep in mind these conclusions only apply to the Sonar dataset!**
+* If a data sample meets the assumptions for logistic regression, it will often outperform
+* But, the Sonar dataset is not one of those datasets.
+
+### Random Forest Wins!
